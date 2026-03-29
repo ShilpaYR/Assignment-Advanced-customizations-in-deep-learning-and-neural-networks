@@ -1,97 +1,117 @@
-
 # Advanced Customizations in Deep Learning and Neural Networks
 
-This repository contains a structured set of Google Colab notebooks demonstrating advanced concepts in deep learning using both **TensorFlow/Keras** and **PyTorch**.
+---
+
+## Repository Overview
+
+This repository contains **8 Colab notebooks** covering the two major parts of the assignment:
+
+- **Part 1:** Data augmentation and generalization techniques with A/B tests in TensorFlow and PyTorch
+- **Part 2:** Advanced TensorFlow and PyTorch constructs including custom components, custom training workflows, TensorBoard, and Weights & Biases
+
+The repository also includes the **assignment report PDF** for formal submission and review.
+
+**GitHub Repository:**  
+https://github.com/ShilpaYR/Assignment-Advanced-customizations-in-deep-learning-and-neural-networks
+
+**Report in Repository:**  
+`DL_Advanced-customizations-in-deep-learning-and-neural-networks_Assignment_Report.pdf`
 
 ---
 
-# Repository Structure
+## Colabs and Video Walkthroughs
 
-## Part 1 — Data Augmentation and Generalization
-
-| Notebook | Description |
-|--------|-------------|
-| Notebook 1 | TensorFlow: Regularization techniques (L1, L2, Dropout, EarlyStopping, MC Dropout, BatchNorm, Initialization, Callbacks, TensorBoard, Keras Tuner) |
-| Notebook 2 | PyTorch: Equivalent regularization techniques and comparisons |
-| Notebook 3 | Image augmentation and classification (TensorFlow + KerasCV) |
-| Notebook 4 | Multi-modal augmentation (image, text, time series, tabular, speech, document, video) |
-
----
-
-## Part 1 Mapping to Requirements
-
-| Requirement | Notebook |
-|------------|---------|
-| L1 / L2 regularization | Notebook 1, 2 |
-| Dropout / MC Dropout | Notebook 1, 2 |
-| Early stopping | Notebook 1 |
-| Initialization strategies | Notebook 1 |
-| Batch normalization | Notebook 1 |
-| Custom dropout / regularization | Notebook 1 |
-| TensorBoard & callbacks | Notebook 1 |
-| Keras tuner | Notebook 1 |
-| Image augmentation | Notebook 3 |
-| Multi-modal augmentation | Notebook 4 |
+| Colab | Notebook | Main Focus | Video |
+|---|---|---|---|
+| Colab 1 | `01_tf_regularization_generalization_ab_tests.ipynb` | TensorFlow regularization, callbacks, TensorBoard, Keras Tuner, A/B tests | https://youtu.be/cmEOV4UpEiU |
+| Colab 2 | `02_pytorch_regularization_generalization_ab_tests.ipynb` | PyTorch regularization and generalization comparisons | https://youtu.be/cmEOV4UpEiU |
+| Colab 3 | `03_tf_image_augmentation_and_classification_FINAL.ipynb` | Image augmentation and classification using TensorFlow and KerasCV | https://youtu.be/x6NNh8Zg1i4 |
+| Colab 4 | `04_multimodal_augmentation_FINAL.ipynb` | Multi-modal augmentation across text, time series, tabular, speech, document images, and video | https://youtu.be/Vi0l_OJisrA |
+| Colab 5 | `05_tf_custom_components_submission_ready.ipynb` | TensorFlow custom loss, metric, activation, initializer, regularizer, and constraint | https://youtu.be/XAv1DaJ3LuM |
+| Colab 6 | `06_tf_advanced_models_callbacks_tensorboard_submission_ready.ipynb` | Advanced TensorFlow models, residual blocks, callbacks, TensorBoard, MC dropout | https://youtu.be/k9Wmk-e7DHM |
+| Colab 7 | `07_tf_custom_optimizer_training_loop_wandb_submission_ready.ipynb` | Custom optimizer, custom training loop, TensorBoard, and Weights & Biases | https://youtu.be/7gSOsUOS2xI |
+| Colab 8 | `08_pytorch_advanced_concepts_submission_ready.ipynb` | Advanced PyTorch custom loss, modules, optimizer, scheduler, loop, TensorBoard, and W&B | https://youtu.be/BNv4U5_2jes |
 
 ---
 
-## Part 2 — Advanced Deep Learning Constructs
+## Assignment Requirement Mapping
 
-| Notebook | Description |
-|--------|-------------|
-| Notebook 5 | TensorFlow custom components (loss, metric, activation, initializer, regularizer, constraint) |
-| Notebook 6 | Advanced TensorFlow models (custom layers, scheduler, TensorBoard, residual models) |
-| Notebook 7 | Custom optimizer, training loop, and Weights & Biases |
-| Notebook 8 | Advanced PyTorch concepts (custom model, loss, loop, scheduler, W&B, TensorBoard) |
+### Part 1 — Data Augmentation and Generalization
 
----
+| Requirement / Artifact | Colab(s) | Video(s) |
+|---|---|---|
+| L1 / L2 regularization | Colab 1, Colab 2 | Colab 1 & 2 video |
+| Dropout | Colab 1, Colab 2 | Colab 1 & 2 video |
+| Early stopping | Colab 1 | Colab 1 & 2 video |
+| Monte Carlo dropout | Colab 1, Colab 6 | Colab 1 & 2 video, Colab 6 video |
+| Initialization strategies | Colab 1 | Colab 1 & 2 video |
+| Batch normalization | Colab 1 | Colab 1 & 2 video |
+| Custom dropout / custom regularization | Colab 1 | Colab 1 & 2 video |
+| Callbacks and TensorBoard | Colab 1 | Colab 1 & 2 video |
+| Keras Tuner | Colab 1 | Colab 1 & 2 video |
+| KerasCV augmentation | Colab 3 | Colab 3 video |
+| Image augmentation and classification | Colab 3 | Colab 3 video |
+| Multi-modal augmentation and classification | Colab 4 | Colab 4 video |
 
-## Part 2 Mapping to Requirements
+### Part 2 — Advanced Deep Learning Constructs
 
-| Requirement | Notebook(s) |
-|------------|-------------|
-| Custom learning rate scheduler | 6, 8 |
-| Custom dropout | 6 |
-| Custom normalization | 6 |
-| TensorBoard | 6, 7, 8 |
-| Custom loss function | 5, 8 |
-| Custom activation / initializer / regularizer / constraint | 5 |
-| Custom metric | 5, 8 |
-| Custom layers | 6, 8 |
-| Custom model | 6, 8 |
-| Custom optimizer | 7, 8 |
-| Custom training loop | 7, 8 |
-| Weights & Biases | 7, 8 |
-
----
-
-# Key Highlights
-
-- Clear A/B comparisons between baseline and advanced techniques
-- Consistent structure across notebooks
-- Lightweight datasets for fast execution in Colab
-- Coverage of both TensorFlow and PyTorch ecosystems
-- Includes visualization, logging, and experiment tracking
+| Requirement / Artifact | Colab(s) | Video(s) |
+|---|---|---|
+| Custom learning rate scheduler | Colab 6, Colab 8 | Colab 6 video, Colab 8 video |
+| Custom dropout | Colab 6 | Colab 6 video |
+| Custom normalization | Colab 6 | Colab 6 video |
+| TensorBoard | Colab 6, Colab 7, Colab 8 | Colab 6 video, Colab 7 video, Colab 8 video |
+| Custom loss function | Colab 5, Colab 8 | Colab 5 video, Colab 8 video |
+| Custom activation / initializer / regularizer / kernel weight constraint | Colab 5 | Colab 5 video |
+| Custom metric | Colab 5, Colab 8 | Colab 5 video, Colab 8 video |
+| Custom layers | Colab 6, Colab 8 | Colab 6 video, Colab 8 video |
+| Custom model | Colab 6, Colab 8 | Colab 6 video, Colab 8 video |
+| Custom optimizer | Colab 7, Colab 8 | Colab 7 video, Colab 8 video |
+| Custom training loop | Colab 7, Colab 8 | Colab 7 video, Colab 8 video |
+| Weights & Biases | Colab 7, Colab 8 | Colab 7 video, Colab 8 video |
 
 ---
 
-# How to Run
+## Key Highlights for Reviewer
 
-1. Open each notebook in Google Colab
-2. Run cells sequentially
-3. Enable GPU if desired
-4. For W&B:
-   - Default mode is offline
-   - Switch to online mode for full tracking
-
----
-
-# Summary
-
-- Part 1 focuses on **generalization and augmentation**
-- Part 2 focuses on **custom deep learning internals**
-- Combined, the notebooks demonstrate both **practical usage** and **low-level understanding** of deep learning systems
+- The notebooks are organized by **assignment theme** rather than as disconnected experiments.
+- Part 1 covers both **generalization** and **augmentation** with baseline-vs-improved comparisons.
+- Part 2 focuses on **low-level custom deep-learning internals** and advanced workflow control.
+- The repository demonstrates work across **both TensorFlow/Keras and PyTorch**.
+- The report file is included directly in the repository for formal review.
+- The README serves as the main navigation layer for quickly locating the right Colab and matching walkthrough video.
 
 ---
 
-# End of README
+## Suggested Review Flow
+
+1. Open the repository and inspect the notebook list.
+2. Use the tables above to locate the relevant Colab for a required artifact.
+3. Open the corresponding YouTube walkthrough for the code explanation.
+4. Use the report PDF in the repository for the formal submission summary.
+
+---
+
+## Included Report
+
+The repository includes the formal report PDF:
+
+- `DL_Advanced-customizations-in-deep-learning-and-neural-networks_Assignment_Report.pdf`
+
+This report summarizes:
+- assignment coverage,
+- submission organization,
+- technical scope,
+- and reviewer navigation guidance.
+
+---
+
+## Summary
+
+Together, these notebooks demonstrate:
+
+- practical use of augmentation and regularization,
+- framework-specific and cross-framework understanding,
+- custom TensorFlow and PyTorch internals,
+- and experiment tracking workflows used in real deep learning projects.
+
