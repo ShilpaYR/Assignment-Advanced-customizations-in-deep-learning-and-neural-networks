@@ -15,7 +15,7 @@ The repository also includes the **assignment report PDF** for formal submission
 https://github.com/ShilpaYR/Assignment-Advanced-customizations-in-deep-learning-and-neural-networks
 
 **Report in Repository:**  
-`[DL_Advanced-customizations-in-deep-learning-and-neural-networks_Assignment_Report.pdf](./DL_Advanced-customizations-in-deep-learning-and-neural-networks_Assignment_Report.pdf)`
+[`DL_Advanced-customizations-in-deep-learning-and-neural-networks_Assignment_Report.pdf`](./DL_Advanced-customizations-in-deep-learning-and-neural-networks_Assignment_Report.pdf)
 
 ---
 
