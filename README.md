@@ -21,16 +21,16 @@ https://github.com/ShilpaYR/Assignment-Advanced-customizations-in-deep-learning-
 
 ## Colabs and Video Walkthroughs
 
-| Colab | Notebook | Main Focus | Video |
-|---|---|---|---|
-| Colab 1 | `01_tf_regularization_generalization_ab_tests.ipynb` | TensorFlow regularization, callbacks, TensorBoard, Keras Tuner, A/B tests | https://youtu.be/cmEOV4UpEiU |
-| Colab 2 | `02_pytorch_regularization_generalization_ab_tests.ipynb` | PyTorch regularization and generalization comparisons | https://youtu.be/cmEOV4UpEiU |
-| Colab 3 | `03_tf_image_augmentation_and_classification_FINAL.ipynb` | Image augmentation and classification using TensorFlow and KerasCV | https://youtu.be/x6NNh8Zg1i4 |
-| Colab 4 | `04_multimodal_augmentation_FINAL.ipynb` | Multi-modal augmentation across text, time series, tabular, speech, document images, and video | https://youtu.be/Vi0l_OJisrA |
-| Colab 5 | `05_tf_custom_components_submission_ready.ipynb` | TensorFlow custom loss, metric, activation, initializer, regularizer, and constraint | https://youtu.be/XAv1DaJ3LuM |
-| Colab 6 | `06_tf_advanced_models_callbacks_tensorboard_submission_ready.ipynb` | Advanced TensorFlow models, residual blocks, callbacks, TensorBoard, MC dropout | https://youtu.be/k9Wmk-e7DHM |
-| Colab 7 | `07_tf_custom_optimizer_training_loop_wandb_submission_ready.ipynb` | Custom optimizer, custom training loop, TensorBoard, and Weights & Biases | https://youtu.be/7gSOsUOS2xI |
-| Colab 8 | `08_pytorch_advanced_concepts_submission_ready.ipynb` | Advanced PyTorch custom loss, modules, optimizer, scheduler, loop, TensorBoard, and W&B | https://youtu.be/BNv4U5_2jes |
+| Notebook | Main Focus | Video |
+|---|---|---|
+| `01_tf_regularization_generalization_ab_tests.ipynb` | TensorFlow regularization, callbacks, TensorBoard, Keras Tuner, A/B tests | https://youtu.be/cmEOV4UpEiU |
+| `02_pytorch_regularization_generalization_ab_tests.ipynb` | PyTorch regularization and generalization comparisons | https://youtu.be/cmEOV4UpEiU |
+| `03_tf_image_augmentation_and_classification_FINAL.ipynb` | Image augmentation and classification using TensorFlow and KerasCV | https://youtu.be/x6NNh8Zg1i4 |
+| `04_multimodal_augmentation_FINAL.ipynb` | Multi-modal augmentation across text, time series, tabular, speech, document images, and video | https://youtu.be/Vi0l_OJisrA |
+| `05_tf_custom_components_submission_ready.ipynb` | TensorFlow custom loss, metric, activation, initializer, regularizer, and constraint | https://youtu.be/XAv1DaJ3LuM |
+| `06_tf_advanced_models_callbacks_tensorboard_submission_ready.ipynb` | Advanced TensorFlow models, residual blocks, callbacks, TensorBoard, MC dropout | https://youtu.be/k9Wmk-e7DHM |
+| `07_tf_custom_optimizer_training_loop_wandb_submission_ready.ipynb` | Custom optimizer, custom training loop, TensorBoard, and Weights & Biases | https://youtu.be/7gSOsUOS2xI |
+| `08_pytorch_advanced_concepts_submission_ready.ipynb` | Advanced PyTorch custom loss, modules, optimizer, scheduler, loop, TensorBoard, and W&B | https://youtu.be/BNv4U5_2jes |
 
 ---
 
